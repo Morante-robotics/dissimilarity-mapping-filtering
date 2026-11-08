@@ -1,6 +1,6 @@
 # Dissimilarity Mapping Filtering (DMF)
 
-[![tests](https://github.com/Morante-tech/dissimilarity-mapping-filtering/actions/workflows/tests.yml/badge.svg)](https://github.com/Morante-tech/dissimilarity-mapping-filtering/actions/workflows/tests.yml)
+[![tests](https://github.com/Morante-robotics/dissimilarity-mapping-filtering/actions/workflows/tests.yml/badge.svg)](https://github.com/Morante-robotics/dissimilarity-mapping-filtering/actions/workflows/tests.yml)
 
 DMF is an unsupervised method to find anomalous examples in a dataset. It was
 developed during my PhD to select good robot demonstrations and relevant
@@ -21,13 +21,13 @@ on Humanoid Robots (Humanoids)*, Seoul, 2015, pp. 428-433.
 ## Installation
 
 ```bash
-pip install "git+https://github.com/Morante-tech/dissimilarity-mapping-filtering"
+pip install "git+https://github.com/Morante-robotics/dissimilarity-mapping-filtering"
 ```
 
 For the Spark version add the `spark` extra (it needs Java 17 or later):
 
 ```bash
-pip install "dissimilarity-mapping-filtering[spark] @ git+https://github.com/Morante-tech/dissimilarity-mapping-filtering"
+pip install "dissimilarity-mapping-filtering[spark] @ git+https://github.com/Morante-robotics/dissimilarity-mapping-filtering"
 ```
 
 ## Usage
@@ -81,8 +81,8 @@ On a cluster, the package must be installed on the executors too. See
 | [`examples/`](examples) | Example notebook for Spark |
 | [`python/`](python) | Original scripts of the 2015 paper (ported to Python 3) and the dataset of experiment 1 |
 
-`python/` comes from [phd-thesis-cgda](https://github.com/Morante-tech/phd-thesis-cgda) and the Spark code from
-[distributed-machine-learning](https://github.com/Morante-tech/distributed-machine-learning); both keep their git history.
+`python/` comes from [phd-thesis-cgda](https://github.com/Morante-robotics/phd-thesis-cgda) and the Spark code from
+[distributed-machine-learning](https://github.com/Morante-robotics/distributed-machine-learning); both keep their git history.
 
 ## Development
 
